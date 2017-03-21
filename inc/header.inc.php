@@ -1,4 +1,4 @@
-<?php require_once('inc/init.inc.php'); ?>
+<?php require_once('init.inc.php'); ?>
 <?php 
 // récupérer les infos de User
 //debug($_SESSION['membre']);
@@ -61,22 +61,22 @@ extract($_SESSION['membre']);
 					
                         <?php if(userAdmin()) : ?>
                         <li>
-                            <a <?= ($page == 'Gestion des salles') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>gestion_salles.php">Gestion des salles</a>
+                            <a <?= ($page == 'Gestion des salles') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_salles.php">Gestion des salles</a>
                         </li>
                         <li>
-                            <a <?= ($page == 'Gestion des produits') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>gestion_produits.php">Gestion des produits</a>
+                            <a <?= ($page == 'Gestion des produits') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_produits.php">Gestion des produits</a>
                         </li>
                         <li>
-                            <a <?= ($page == 'Gestion des membres') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>gestion_membresphp">Gestion des membres</a>
+                            <a <?= ($page == 'Gestion des membres') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_membres.php">Gestion des membres</a>
                         </li>
                         <li>
-                            <a <?= ($page == 'Gestion des avis') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>gestion_avis.php">Gestion des avis</a>
+                            <a <?= ($page == 'Gestion des avis') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_avis.php">Gestion des avis</a>
                         </li>
                         <li>
-                            <a <?= ($page == 'Gestion des commandes') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>gestion_commandes.php">Gestion des commades</a>
+                            <a <?= ($page == 'Gestion des commandes') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_commandes.php">Gestion des commades</a>
                         </li>
                         <li>
-                            <a <?= ($page == 'Statistiques') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>gestion_statistiques.php">Statistiques</a>
+                            <a <?= ($page == 'Statistiques') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_statistiques.php">Statistiques</a>
                         </li>
                         <?php endif; ?>
                     </ul>

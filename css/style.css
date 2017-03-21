@@ -26,7 +26,8 @@ body{
 /********************************************
 *   PAGE CONNEXION                          *
 ********************************************/
-#page-connexion{
+#page-connexion,
+#gestion_produits{
     margin-top: 100px;
     color: #33383B;
 }
