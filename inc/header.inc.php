@@ -61,7 +61,7 @@ extract($_SESSION['membre']);
 					
                         <?php if(userAdmin()) : ?>
                         <li>
-                            <a <?= ($page == 'Gestion des salles') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_salles.php">Gestion des salles</a>
+                            <a <?= ($page == 'Gestion des salles') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_salle.php">Gestion des salles</a>
                         </li>
                         <li>
                             <a <?= ($page == 'Gestion des produits') ? 'class=active' : '' ?> href="<?= RACINE_SITE ?>backoffice/gestion_produits.php">Gestion des produits</a>

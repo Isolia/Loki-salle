@@ -19,15 +19,37 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
+h1{
+    text-align: center;
+}
 .conteneur{
     width: 1200px;
     margin: 0 auto;
+}
+.float-left{
+    float: left
+}
+.clear{
+    clear: both;
+}
+.erreur{ 
+    background: #ff0000; 
+    padding: 5px; 
+    margin: 5px; 
+    text-align: center; 
+}
+.validation{ 
+    background: #669933; 
+    padding: 5px; 
+    margin: 5px; 
+    text-align: center;
 }
 /********************************************
 *   PAGE CONNEXION                          *
 ********************************************/
 #page-connexion,
-#gestion_produits{
+#gestion_produits,
+#accueil{
     margin-top: 100px;
     color: #33383B;
 }
@@ -36,6 +58,43 @@ body{
     margin: 0 auto;
 }
 
+/********************************************
+*   Affichage tableau                       *
+********************************************/
+#gestion_produits table{ 
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+#gestion_produits hr{
+	margin: 20px 0;
+}
+#gestion_produitsh1, 
+#gestion_produits h3, 
+#gestion_produits h2{
+    margin-bottom: 20px;
+}
+#gestion_produits table tr td{
+text-align: center;
+}
+#gestion_produits td,
+#gestion_produits th{
+    padding: 5px; 
+    text-align: center;
+}
+#gestion_produits th{
+    background: #08A4BD;
+    color:#eee;
+}
+
+#gestion_produits img{
+    display: inherit;
+}
+#gestion_produits a>img{
+    width: 25px;
+}
+#gestion_produits a{
+    display: inherit;
+}
 
 /********************************************
 *   FOOTER                                  *

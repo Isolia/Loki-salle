@@ -61,6 +61,7 @@ CREATE TABLE `membre` (
   `nom` varchar(20) NOT NULL,
   `prenom` varchar(20) NOT NULL,
   `email` varchar(50) NOT NULL,
+  `photo` varchar(255) NOT NULL,
   `civilite` enum('m','f') NOT NULL,
   `statut` int(1) NOT NULL,
   `date_enregistrement` datetime NOT NULL
